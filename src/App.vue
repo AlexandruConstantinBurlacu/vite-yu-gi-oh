@@ -32,9 +32,13 @@
 </script>
 
 <template>
+  <div class="container">
+    
+    <CardsList></CardsList>
 
-  <CardsList></CardsList>
+  </div>
 
+  
 </template>
 
 <style lang="scss">
