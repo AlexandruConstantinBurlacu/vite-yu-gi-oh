@@ -23,7 +23,7 @@
 <template>
         
     <li class="card">
-        <img src="" :alt="card.name">
+        <img :src="card.card_images[0].image_url" :alt="card.name">
         <h4>
             {{ card.name }}
         </h4>
