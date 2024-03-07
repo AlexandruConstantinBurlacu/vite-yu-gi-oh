@@ -25,7 +25,7 @@
         
     <h1>Carte Yu Gi Oh</h1>
 
-    <ul>
+    <ul class="cardsList">
 
         <CardItem v-for="currentCard in store.cards" :card="currentCard">
         </CardItem>
@@ -36,5 +36,13 @@
 
 
 <style lang="scss">
+
+    @use '../styles/variables' as *;
+
+    .cardsList {
+        display: flex;
+        flex-wrap: wrap;
+        gap: $cardGap;
+    }
 
 </style>
